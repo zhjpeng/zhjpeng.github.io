@@ -27,7 +27,7 @@
   }
 
 div{
-    margin:0.5cm 2cm 0.5cm 4cm;
+    margin:5rem 20rem;
 }
 
 p{
@@ -36,7 +36,6 @@ p{
 }
 
 #article{
-    margin:0.5cm 2cm 0.5cm 4cm;
     font-family:italic, arial,sans-serif;
     font-size:18px;
     background-color:#E7EAED;
