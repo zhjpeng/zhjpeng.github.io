@@ -1,38 +1,63 @@
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto
-  }
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-  }
-  .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-p{
-    font-family:"Times New Roman", Times, serif;
-    font-size:24px;
+.section{
+  margin: 0 auto;
+  width: 60rem;
 }
 
-#article{
-    font-family:italic, arial,sans-serif;
-    font-size:18px;
-    background-color:#E7EAED;
-    padding: 0.2cm 0.4cm;
+h1{
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 1rem 0;
 }
+
+span{
+  font-size: 1rem;
+  color: grey;
+}
+
+h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.education{
+  text-align: justify;
+  font-size: 1.3rem;
+  padding: 0.3rem 1rem;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  margin: .5rem 0;
+}
+
+.article {
+  text-align: justify;
+  font-size: 1.1rem;
+  background-color: #E7EAED;
+  padding: 0.5rem 1rem;
+  margin:1rem 0;
+}
+
+.title{
+  font-size:1.3rem;
+}
+
+i{
+  font-style: italic;
+}
+
+b{
+  font-weight: bold;
+}
+
+.altmetric-embed, __dimensions_badge_embed__{
+  float: left;
+  margin-right: 1rem;
+}
+
